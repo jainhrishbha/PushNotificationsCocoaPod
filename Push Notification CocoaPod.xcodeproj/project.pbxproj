@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1483D45684F1739C4FA87679 /* Pods_Push_Notification_CocoaPod_Push_Notification_CocoaPodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C25B15921BDFE32F4788BF /* Pods_Push_Notification_CocoaPod_Push_Notification_CocoaPodTests.framework */; };
-		6657CDBCA025D7ED50D47425 /* Pods_Push_Notification_CocoaPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7561C1CCC02E825ECBB00CCF /* Pods_Push_Notification_CocoaPod.framework */; };
+		5896BE549873E10723952B23 /* libPods-Push Notification CocoaPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B1C5EC631F4AFF91F6517 /* libPods-Push Notification CocoaPod.a */; };
 		CF674D872603387700AF6A6C /* Push_Notification_CocoaPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF674D7D2603387700AF6A6C /* Push_Notification_CocoaPod.framework */; };
 		CF674D8C2603387700AF6A6C /* Push_Notification_CocoaPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF674D8B2603387700AF6A6C /* Push_Notification_CocoaPodTests.swift */; };
 		CF674D8E2603387700AF6A6C /* Push_Notification_CocoaPod.h in Headers */ = {isa = PBXBuildFile; fileRef = CF674D802603387700AF6A6C /* Push_Notification_CocoaPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,9 +26,6 @@
 
 /* Begin PBXFileReference section */
 		04181FC81C782EDC58375AA5 /* Pods-Push Notification CocoaPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Push Notification CocoaPod.release.xcconfig"; path = "Target Support Files/Pods-Push Notification CocoaPod/Pods-Push Notification CocoaPod.release.xcconfig"; sourceTree = "<group>"; };
-		36BD3D0AF2588A88653F41FE /* Pods-Push Notification CocoaPod-Push Notification CocoaPodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Push Notification CocoaPod-Push Notification CocoaPodTests.release.xcconfig"; path = "Target Support Files/Pods-Push Notification CocoaPod-Push Notification CocoaPodTests/Pods-Push Notification CocoaPod-Push Notification CocoaPodTests.release.xcconfig"; sourceTree = "<group>"; };
-		7561C1CCC02E825ECBB00CCF /* Pods_Push_Notification_CocoaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Push_Notification_CocoaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95774AF6D8D30E4BD42876E2 /* Pods-Push Notification CocoaPod-Push Notification CocoaPodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Push Notification CocoaPod-Push Notification CocoaPodTests.debug.xcconfig"; path = "Target Support Files/Pods-Push Notification CocoaPod-Push Notification CocoaPodTests/Pods-Push Notification CocoaPod-Push Notification CocoaPodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF674D7D2603387700AF6A6C /* Push_Notification_CocoaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Push_Notification_CocoaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF674D802603387700AF6A6C /* Push_Notification_CocoaPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Push_Notification_CocoaPod.h; sourceTree = "<group>"; };
 		CF674D812603387700AF6A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,7 +34,7 @@
 		CF674D8D2603387700AF6A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF674DA92603391200AF6A6C /* PushNotif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotif.swift; sourceTree = "<group>"; };
 		E1F16ABAF9EBF78981319ECB /* Pods-Push Notification CocoaPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Push Notification CocoaPod.debug.xcconfig"; path = "Target Support Files/Pods-Push Notification CocoaPod/Pods-Push Notification CocoaPod.debug.xcconfig"; sourceTree = "<group>"; };
-		E7C25B15921BDFE32F4788BF /* Pods_Push_Notification_CocoaPod_Push_Notification_CocoaPodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Push_Notification_CocoaPod_Push_Notification_CocoaPodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7B1C5EC631F4AFF91F6517 /* libPods-Push Notification CocoaPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Push Notification CocoaPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6657CDBCA025D7ED50D47425 /* Pods_Push_Notification_CocoaPod.framework in Frameworks */,
+				5896BE549873E10723952B23 /* libPods-Push Notification CocoaPod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +51,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF674D872603387700AF6A6C /* Push_Notification_CocoaPod.framework in Frameworks */,
-				1483D45684F1739C4FA87679 /* Pods_Push_Notification_CocoaPod_Push_Notification_CocoaPodTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,8 +62,6 @@
 			children = (
 				E1F16ABAF9EBF78981319ECB /* Pods-Push Notification CocoaPod.debug.xcconfig */,
 				04181FC81C782EDC58375AA5 /* Pods-Push Notification CocoaPod.release.xcconfig */,
-				95774AF6D8D30E4BD42876E2 /* Pods-Push Notification CocoaPod-Push Notification CocoaPodTests.debug.xcconfig */,
-				36BD3D0AF2588A88653F41FE /* Pods-Push Notification CocoaPod-Push Notification CocoaPodTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -76,8 +69,7 @@
 		9B076F3C0E271848A218A70A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7561C1CCC02E825ECBB00CCF /* Pods_Push_Notification_CocoaPod.framework */,
-				E7C25B15921BDFE32F4788BF /* Pods_Push_Notification_CocoaPod_Push_Notification_CocoaPodTests.framework */,
+				FF7B1C5EC631F4AFF91F6517 /* libPods-Push Notification CocoaPod.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,11 +150,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF674D942603387700AF6A6C /* Build configuration list for PBXNativeTarget "Push Notification CocoaPodTests" */;
 			buildPhases = (
-				9F2713B399CAB39936ED0803 /* [CP] Check Pods Manifest.lock */,
 				CF674D822603387700AF6A6C /* Sources */,
 				CF674D832603387700AF6A6C /* Frameworks */,
 				CF674D842603387700AF6A6C /* Resources */,
-				AF5D17ED466FC474C7EA7F43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,45 +219,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9F2713B399CAB39936ED0803 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Push Notification CocoaPod-Push Notification CocoaPodTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AF5D17ED466FC474C7EA7F43 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Push Notification CocoaPod-Push Notification CocoaPodTests/Pods-Push Notification CocoaPod-Push Notification CocoaPodTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Push Notification CocoaPod-Push Notification CocoaPodTests/Pods-Push Notification CocoaPod-Push Notification CocoaPodTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Push Notification CocoaPod-Push Notification CocoaPodTests/Pods-Push Notification CocoaPod-Push Notification CocoaPodTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D44742FF6F871AA045A43037 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,7 +448,6 @@
 		};
 		CF674D952603387700AF6A6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95774AF6D8D30E4BD42876E2 /* Pods-Push Notification CocoaPod-Push Notification CocoaPodTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,7 +467,6 @@
 		};
 		CF674D962603387700AF6A6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36BD3D0AF2588A88653F41FE /* Pods-Push Notification CocoaPod-Push Notification CocoaPodTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
