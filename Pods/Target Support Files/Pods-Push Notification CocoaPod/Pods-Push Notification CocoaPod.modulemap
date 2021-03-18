@@ -1,0 +1,6 @@
+framework module Pods_Push_Notification_CocoaPod {
+  umbrella header "Pods-Push Notification CocoaPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
