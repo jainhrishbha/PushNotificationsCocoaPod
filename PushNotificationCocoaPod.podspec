@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = '13.6'
   spec.name         = "PushNotificationCocoaPod"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "It helps you enable Push Notifications in iOS app using Firebase."
 
  
@@ -24,7 +24,9 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/jainhrishbha/PushNotificationsCocoaPod.git", :tag => "#{spec.version}" }
 
 
-  
+    spec.framework = "UIKit"
+    spec.dependency 'Firebase/Analytics'
+    spec.dependency 'Firebase/Messaging'
   spec.source_files  = "Push Notification CocoaPod/**/*.{h,m,swift}"
   
 
