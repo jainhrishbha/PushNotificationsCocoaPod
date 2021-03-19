@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = '13.6'
   spec.name         = "PushNotificationCocoaPod"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "It helps you enable Push Notifications in iOS app using Firebase."
 
  
